@@ -1,0 +1,10 @@
+.content {
+    grid-area: m;
+}
+
+.pic {
+    width: 720px;
+    background-size: 100%;
+    background-image: url("../../../images/testPic.jpg");
+    height: 380px;
+}

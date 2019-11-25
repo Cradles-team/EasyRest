@@ -1,0 +1,65 @@
+.content {
+    grid-area: m;
+}
+
+.pic {
+    width: 1920px;
+    height: 1000px;
+    background-image: url("../../../images/testPic.jpg");
+    background-size: 100%;
+}
+
+.text {
+    text-align: center;
+    padding-top: 500px;
+    padding-left: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.forIOS {
+    display: inline-block;
+    height: 882px;
+    width: 450px;
+}
+
+.forAndroid {
+    display: inline-block;
+    height: 882px;
+    width: 450px;
+    margin-left: 150px;
+}
+
+.appDescription {
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 400px;
+}
+
+.Navigation {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.google {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.google img {
+    width: 260px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.apple {display: inline-block;}
+
+.apple img {
+    width: 260px;
+    height: 80px;
+    border-radius: 15px;
+}
