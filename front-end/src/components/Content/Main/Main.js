@@ -1,7 +1,7 @@
 import React from "react";
 import main from "./Main.module.css";
-import google from "../../../images/getItOnGooglePlay.jpg";
-import apple from "../../../images/downloadOnTheAppStore.jpg";
+import google from "../../../images/getItOnGooglePlay.png";
+import apple from "../../../images/downloadOnTheAppStore.png";
 import Iphone from "../../../images/ER_Iphone.png"
 import Pixel from "../../../images/ER_mobile.png"
 

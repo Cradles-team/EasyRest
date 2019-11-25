@@ -13,6 +13,12 @@
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    transition-duration: 0.3s;
+}
+
+.forUsers:hover {
+    color: white;
 }
 
 .forRestaurants {
@@ -20,31 +26,12 @@
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    transition-duration: 0.3s;
 }
 
-.appNav {
-    position: absolute;
-    top: 3px;;
-    left: 80%;
-}
-
-.google {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-.google img {
-    width: 130px;
-    height: 40px;
-    border-radius: 15px;
-}
-
-.apple {display: inline-block;}
-
-.apple img {
-    width: 130px;
-    height: 40px;
-    border-radius: 15px;
+.forRestaurants:hover {
+    color: white;
 }
 
 .logo {
