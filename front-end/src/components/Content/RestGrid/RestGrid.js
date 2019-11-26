@@ -15,7 +15,7 @@ function RestaurantItem(props) {
 }
 
 function RestGrid(props) {
-    let RestElements = props.rests.map(r => <RestaurantItem id={r.id} name={r.name} image={r.image}/>);
+    let RestElements = props.rests.map(r => <RestaurantItem id={r.id} name={r.name} image={r.image} key={r.id}/>);
 
   return (
       <div className={restGrid.restGrid}>
