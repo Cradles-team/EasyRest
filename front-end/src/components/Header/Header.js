@@ -2,8 +2,6 @@ import React from "react";
 import header from "./Header.module.css";
 import {NavLink} from "react-router-dom"
 import logo from "../../images/EasyRest.jpg"
-import google from "../../images/getItOnGooglePlay.jpg"
-import apple from "../../images/downloadOnTheAppStore.jpg"
 
 function Header(props) {
     return (<header className={header.header}>
