@@ -8,8 +8,8 @@ function Header(props) {
         <div className={header.logo}>
             <NavLink to="/home"><img src={logo} alt="logo"/></NavLink>
         </div>
-        <NavLink className={header.forUsers} to="/forUsers">For Users</NavLink>
-        <NavLink className={header.forRestaurants} to="/forRestaurants">For Restaurants</NavLink>
+        <NavLink className={header.restaurants} to="/restaurants">Restaurants</NavLink>
+        <NavLink className={header.product} to="/product">Product</NavLink>
     </header>)
 }
 

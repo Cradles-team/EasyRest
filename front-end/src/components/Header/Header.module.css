@@ -8,7 +8,7 @@
     font-weight: bold;
 }
 
-.forUsers {
+.restaurants {
     margin: 0 100px;
     text-decoration: none;
     color: black;
@@ -17,11 +17,11 @@
     transition-duration: 0.3s;
 }
 
-.forUsers:hover {
+.restaurants:hover {
     color: white;
 }
 
-.forRestaurants {
+.product {
     margin: 0 100px;
     text-decoration: none;
     color: black;
@@ -30,7 +30,7 @@
     transition-duration: 0.3s;
 }
 
-.forRestaurants:hover {
+.product:hover {
     color: white;
 }
 
