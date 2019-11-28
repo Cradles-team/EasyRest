@@ -8,17 +8,17 @@ import Product from "./components/Content/Product/Product";
 import {BrowserRouter, Route} from "react-router-dom"
 
 function App(props) {
-  return (
-      <BrowserRouter>
-    <div className="wrapper">
-      <Header/>
-      <Route exact path="/home/" render={ () => <Main/>}/>
-      <Route exact path="/product/" render={ () => <Product/>}/>
-      <Route exact path="/restaurants/" render={ () => <RestGrid rests={props.state.rests}/>}/>
-      <Footer/>
-    </div>
-      </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <div className="wrapper">
+                <Header/>
+                <Route exact path="/home/" render={() => <Main/>}/>
+                <Route exact path="/product/" render={() => <Product/>}/>
+                <Route exact path="/restaurants/" render={() => <RestGrid rests={props.state.rests}/>}/>
+                <Footer/>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 
