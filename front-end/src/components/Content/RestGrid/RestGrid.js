@@ -1,6 +1,6 @@
 import React from "react";
 import restGrid from "./RestGrid.module.css";
-import { NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
 function RestaurantItem(props) {
