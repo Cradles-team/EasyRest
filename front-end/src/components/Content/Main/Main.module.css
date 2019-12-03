@@ -17,17 +17,28 @@
     color: white;
 }
 
+.forIOS img {
+    height: 900px;
+    width: 400px;
+}
+
 .forIOS {
     display: inline-block;
-    height: 882px;
-    width: 450px;
+    height: 900px;
+    width: 400px;
+    margin-left: 50px;
 }
 
 .forAndroid {
     display: inline-block;
-    height: 882px;
-    width: 450px;
-    margin-left: 150px;
+    height: 900px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.forAndroid img {
+    height: 900px;
+    width: 400px;
 }
 
 .appDescription {

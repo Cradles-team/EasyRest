@@ -19,7 +19,7 @@ function Product() {
             <div className={product.buyForm}>
                 <img src={kit}/>
                 <a href="https://next.privat24.ua/" className={product.button}>BUY</a>
-                <p className={product.price}>Ціна: 3499 грн</p>
+                <p className={product.price}>Ціна: 3999грн + 250грн/столик</p>
             </div>
         </div>
     )

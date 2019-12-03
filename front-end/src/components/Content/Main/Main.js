@@ -2,8 +2,8 @@ import React from "react";
 import main from "./Main.module.css";
 import google from "../../../images/getItOnGooglePlay.png";
 import apple from "../../../images/downloadOnTheAppStore.png";
-import Iphone from "../../../images/ER_Iphone.png"
-import Pixel from "../../../images/ER_mobile.png"
+import Iphone from "../../../images/iphone.png"
+import Android from "../../../images/android.png"
 
 function Main() {
     return (
@@ -13,7 +13,7 @@ function Main() {
                     харчування.
                 </div>
             </div>
-            <div className={main.forAndroid}><img src={Pixel}/></div>
+            <div className={main.forAndroid}><img src={Android}/></div>
             <div className={main.forIOS}><img src={Iphone}/></div>
             <div className={main.appDescription}>Мобільний додаток допоможе тобі знайти вільний столик у
                 ресторані <br/> і не витрачати час у черзі.
