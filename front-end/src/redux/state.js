@@ -1,3 +1,5 @@
+import {rerenderEntireTree} from "./render";
+
 let state = {
     rests: [
         {id: 1, name: "Lviv Croissants", image: "https://lviv.virtual.ua/images/387175/"},
@@ -48,5 +50,7 @@ let state = {
         }
     ]
 }
+
+rerenderEntireTree(state);
 
 export default state;
