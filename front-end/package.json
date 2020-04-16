@@ -2,7 +2,7 @@
   "name": "easyrest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cradles-team.github.io/EasyRest/front-end/build/",
+  "homepage": "https://cradles-team.github.io/EasyRest",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
