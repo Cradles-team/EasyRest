@@ -1,3 +1,6 @@
+import restsReducer from "./restsReducer";
+import restsInfoReducer from "./restsInfoReducer";
+
 let store = {
 
     _state: {
@@ -54,17 +57,23 @@ let store = {
             }
         ]
     },
+    _callSubscriber() {
+    },
 
     getState() {
         return this._state;
     },
-
-    _callSubscriber() {
-    },
-
     subscribe(observer) {
         this._callSubscriber = observer;
     },
+
+    dispatch(action) {
+        this._state.rests = restsReducer(this._state.rests, action);
+        this._state.restsInfo = restsInfoReducer(this._state.restsInfo, action);
+
+        this._callSubscriber(this._state);
+    }
+
 };
 
 export default store;
