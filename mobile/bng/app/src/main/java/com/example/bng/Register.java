@@ -49,7 +49,7 @@ public class Register extends AppCompatActivity {
         });
     }
     private boolean isTextViewsAreValid () {
-        if (poshta.getText().toString().isEmpty() || password.getText().toString().isEmpty() || name.getText().toString().isEmpty() || confirmPassword.getText().toString().isEmpty()) {
+        if (poshta.getText().toString().isEmpty() || password.getText().toString().isEmpty() || name.getText().toString().isEmpty() || confirmPassword.getText().toString().isEmpty() ||  !password.getText().toString().equals(confirmPassword.getText().toString())) {
             return false;
         } else {
             return true;

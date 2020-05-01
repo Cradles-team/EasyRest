@@ -9,10 +9,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="114dp"
-        android:layout_height="32dp"
+        android:layout_width="198dp"
+        android:layout_height="35dp"
         android:layout_marginTop="60dp"
         android:text="Увійти на Акаунт"
+        android:textSize="24sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toTopOf="@+id/poshta"
         app:layout_constraintHorizontal_bias="0.498"

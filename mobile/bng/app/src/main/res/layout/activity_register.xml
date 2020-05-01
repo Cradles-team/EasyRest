@@ -9,9 +9,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="122dp"
-        android:layout_height="22dp"
+        android:layout_width="197dp"
+        android:layout_height="37dp"
         android:text="Створити Акаунт"
+        android:textSize="24sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toTopOf="@+id/name"
         app:layout_constraintHorizontal_bias="0.498"
