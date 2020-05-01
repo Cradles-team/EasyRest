@@ -48,16 +48,20 @@
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/kebab" />
 
         <SearchView
             android:id="@+id/searchView"
-            android:layout_width="275dp"
+            android:layout_width="320dp"
             android:layout_height="40dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="50dp"
+            android:background="#FFFFFF"
             app:layout_constraintBottom_toTopOf="@+id/chelentano"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,7 +82,6 @@
             android:id="@+id/pizza"
             android:layout_width="81dp"
             android:layout_height="36dp"
-            android:layout_marginBottom="76dp"
             android:background="#F8F5F5"
             android:text="Піцерія"
             android:textStyle="normal|bold"
@@ -86,7 +89,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/keb"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.321" />
+            app:layout_constraintVertical_bias="0.655" />
 
         <Button
             android:id="@+id/keb"
@@ -100,7 +103,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/res"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.086" />
+            app:layout_constraintVertical_bias="0.655" />
 
         <Button
             android:id="@+id/res"
@@ -114,6 +117,6 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.076" />
+            app:layout_constraintVertical_bias="0.655" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

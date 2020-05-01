@@ -47,7 +47,7 @@ public class Login extends AppCompatActivity {
     }
 
         private boolean isTextViewsAreValid () {
-            if (poshta.getText().toString().isEmpty() || password.getText().toString().isEmpty()) {
+            if (poshta.getText().toString().isEmpty() || password.getText().toString().isEmpty() || !poshta.getText().toString().contains("@gmail.com")) {
                 return false;
             } else {
                 return true;
