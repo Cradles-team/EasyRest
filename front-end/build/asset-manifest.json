@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/easyrest/static/css/main.8c706ca9.chunk.css",
+    "main.js": "/easyrest/static/js/main.f11177eb.chunk.js",
+    "main.js.map": "/easyrest/static/js/main.f11177eb.chunk.js.map",
+    "runtime-main.js": "/easyrest/static/js/runtime-main.a9c14fff.js",
+    "runtime-main.js.map": "/easyrest/static/js/runtime-main.a9c14fff.js.map",
+    "static/js/2.5ba441a4.chunk.js": "/easyrest/static/js/2.5ba441a4.chunk.js",
+    "static/js/2.5ba441a4.chunk.js.map": "/easyrest/static/js/2.5ba441a4.chunk.js.map",
+    "index.html": "/easyrest/index.html",
+    "precache-manifest.3b10b01f5649718b8b5cb7e7f5ce4a61.js": "/easyrest/precache-manifest.3b10b01f5649718b8b5cb7e7f5ce4a61.js",
+    "service-worker.js": "/easyrest/service-worker.js",
+    "static/css/main.8c706ca9.chunk.css.map": "/easyrest/static/css/main.8c706ca9.chunk.css.map",
+    "static/media/EasyRest.png": "/easyrest/static/media/EasyRest.00779d1c.png",
+    "static/media/android.png": "/easyrest/static/media/android.d9c3731b.png",
+    "static/media/Product.module.css": "/easyrest/static/media/censors.a032b440.jpg",
+    "static/media/getItOnGooglePlay.png": "/easyrest/static/media/getItOnGooglePlay.db9b21a1.png",
+    "static/media/iphone.png": "/easyrest/static/media/iphone.e6b50a89.png",
+    "static/media/kit.png": "/easyrest/static/media/kit.873825ff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9c14fff.js",
+    "static/js/2.5ba441a4.chunk.js",
+    "static/css/main.8c706ca9.chunk.css",
+    "static/js/main.f11177eb.chunk.js"
+  ]
+}

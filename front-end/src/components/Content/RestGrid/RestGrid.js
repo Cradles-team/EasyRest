@@ -6,7 +6,7 @@ import {NavLink} from "react-router-dom";
 function RestaurantItem(props) {
     return (
         <div className={restGrid.restaurant}>
-            <NavLink to={"/forUsers/" + props.id}>
+            <NavLink to={"/restaurants/" + props.id}>
                 <img src={props.image}/>
                 <h1>{props.name}</h1>
             </NavLink>

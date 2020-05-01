@@ -37,6 +37,7 @@
     width: 550px;
     height: 300px;
 }
+
 .buyForm a {
     text-decoration: none;
     font-size: 30px;
@@ -62,6 +63,7 @@
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
 }
+
 .button:hover, .button:focus, .button:active {
     background-color: red;
     color: white;
