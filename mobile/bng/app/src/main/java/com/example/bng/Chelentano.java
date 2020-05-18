@@ -20,8 +20,8 @@ public class Chelentano extends AppCompatActivity {
         setContentView(R.layout.activity_chelentano);
 
         y = findViewById(R.id.y);
-        button4 = findViewById(R.id.button21);
-        button5 = findViewById(R.id.button22);
+        button4 = findViewById(R.id.button4);
+        button5 = findViewById(R.id.button5);
         y.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

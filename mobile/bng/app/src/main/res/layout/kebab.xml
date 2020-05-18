@@ -25,22 +25,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
 
-        <Button
-            android:id="@+id/button11"
-            android:layout_width="75dp"
-            android:layout_height="69dp"
-            android:layout_marginTop="135dp"
-            android:layout_marginBottom="5dp"
-            android:background="#FFFFFF"
-            android:drawableBottom="@drawable/heart"
-            android:text="Button"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.705" />
-
         <TextView
             android:id="@+id/textView10"
             android:layout_width="416dp"
@@ -57,9 +41,9 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="98dp"
-            android:layout_height="39dp"
-            android:text="МЕНЮ"
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:text="МІСЦЕ ПОЛОЖЕННЯ"
             android:textColor="#000000"
             android:textSize="30sp"
             android:textStyle="italic"
@@ -70,23 +54,13 @@
             app:layout_constraintTop_toBottomOf="@+id/textView10"
             app:layout_constraintVertical_bias="0.07" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="401dp"
-            android:layout_height="137dp"
-            android:layout_marginTop="44dp"
-            android:src="@drawable/kebab_menu"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:layout_constraintVertical_bias="0.0" />
-
         <Button
             android:id="@+id/y"
-            android:layout_width="41dp"
-            android:layout_height="46dp"
-            android:drawableBottom="@drawable/back"
+            android:layout_width="39dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="15dp"
+            android:background="#00FFFFFF"
+            android:drawableBottom="@drawable/returne"
             android:text="Y"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -95,63 +69,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.004" />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="69dp"
-            android:layout_height="34dp"
-            android:text="5 / 5"
-            android:textColor="#010102"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.156" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="307dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="208dp"
-            android:text="МІСЦЕ ПОЛОЖЕННЯ"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3"
-            app:layout_constraintVertical_bias="1.0" />
-
-        <Button
-            android:id="@+id/button21"
-            android:layout_width="154dp"
-            android:layout_height="37dp"
-            android:layout_marginTop="18dp"
-            android:text="ПОКРОКОВО"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.428"
-            app:layout_constraintStart_toEndOf="@+id/textView14"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <Button
-            android:id="@+id/button22"
-            android:layout_width="154dp"
-            android:layout_height="37dp"
-            android:layout_marginTop="35dp"
-            android:layout_marginEnd="-25dp"
-            android:layout_marginRight="-25dp"
-            android:text="ПОКРОКОВО"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.854"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button21"
-            app:layout_constraintVertical_bias="0.026" />
 
         <TextView
             android:id="@+id/textView13"
@@ -164,15 +81,17 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button22"
-            app:layout_constraintVertical_bias="0.567" />
+            app:layout_constraintTop_toBottomOf="@+id/button11"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="133dp"
-            android:layout_height="95dp"
+            android:layout_width="139dp"
+            android:layout_height="60dp"
             android:layout_marginTop="25dp"
+            android:background="#FFC244"
             android:text="ВУЛ. СІЧОВИХ СТРІЛЬЦІВ 17"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.219"
@@ -182,58 +101,155 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="144dp"
-            android:layout_height="96dp"
+            android:layout_width="139dp"
+            android:layout_height="60dp"
+            android:background="#FFC244"
             android:text="ВУЛ. СТЕПАНА БАНДЕРИ 23"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintHorizontal_bias="0.834"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.169" />
 
         <TextView
             android:id="@+id/textView14"
-            android:layout_width="144dp"
-            android:layout_height="47dp"
+            android:layout_width="164dp"
+            android:layout_height="52dp"
             android:text="ВУЛ. СІЧОВИХ СТРІЛЬЦІВ 17"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.168"
+            app:layout_constraintHorizontal_bias="0.129"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
-            app:layout_constraintVertical_bias="0.056" />
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.048" />
 
         <TextView
             android:id="@+id/textView15"
-            android:layout_width="152dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="-15dp"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
             android:text="ВУЛ. СТЕПАНА БАНДЕРИ 23"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.173"
+            app:layout_constraintHorizontal_bias="0.143"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
             app:layout_constraintVertical_bias="0.086" />
 
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="54dp"
-            android:layout_height="38dp"
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="132dp"
+            android:layout_marginRight="132dp"
+            android:text="Добавити до "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.088" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:background="#FFC244"
+            android:text="Улюбленого"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintStart_toEndOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <Button
+            android:id="@+id/kebabmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#FFC244"
+            android:text="МЕНЮ"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button8"
+            app:layout_constraintVertical_bias="0.526" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="54dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="256dp"
+            android:layout_marginRight="256dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView22"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.63"
+            app:layout_constraintVertical_bias="0.909"
             app:srcCompat="@drawable/star" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="88dp"
+            android:layout_height="32dp"
+            android:text="4.5 / 5"
+            android:textColor="#010102"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.249" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="154dp"
+            android:layout_height="37dp"
+            android:background="#FFC244"
+            android:text="ПОКРОКОВО"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.069" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="154dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="-25dp"
+            android:layout_marginRight="-25dp"
+            android:background="#FFC244"
+            android:text="ПОКРОКОВО"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.893"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10"
+            app:layout_constraintVertical_bias="0.147" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
