@@ -1,31 +1,33 @@
 import styled from "styled-components";
-import {NavLink} from "react-router-dom";
 
 export const HeaderWrapper = styled.header`
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     grid-area: h;
-    background-color: #ffcc1b;
-    font-size: 30px;
-    text-align: center;
+    background-color: #353434;
     width: auto;
     font-weight: bold;
 `;
 
-export const LogoWrapper = styled.div`
-    position: absolute;
-    margin-left: 30px;
-    `;
-
-export const Logo = styled.img`
-    height: 48px;
-    width: 172px;
-`;
-
-export const LinkWrapper = styled(NavLink)`
-    margin: 0 100px;
+export const LinkWrapper = styled.div`
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    >ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    width: 80%;
+    font-weight: 300;
+    }
+    
+    >ul>li>a {
     text-decoration: none;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    transition-duration: 0.3s;
-    `;
+    color: white;
+    }
+`;

@@ -1,30 +1,69 @@
 import styled from 'styled-components';
-import censors from '../../images/censors.jpg';
+import censorsDark from '../../images/censorsDark.png';
 
 export const HomeWrapper = styled.div`
     grid-area: m;
+    display: flex;
+    flex-direction: column;
     `;
 
 export const HeroSection = styled.div`
-    width: 1920px;
-    height: 1000px;
-    background-image: url(${censors});
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 980px;
+    background-image: url(${censorsDark});
     background-size: 100%;
     `;
 
+export const EasyRest = styled.div`
+    font-family: 'Rochester';
+    color: white;
+    font-size: 80px;
+    margin-bottom: 300px;
+`;
+
 export const HeroDescription = styled.div`
-    text-align: center;
-    padding-top: 400px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     color: white;
     `;
 
+export const PopularRestaurants = styled.div`
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    
+    >h2 {
+    margin-top: 50px;
+    margin-left: 70px;
+    }
+`;
+
+export const CardWrapper = styled.div`
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+`;
+
+export const LogoWrapper = styled.img`
+    height: 180px;
+    width: 180px; 
+    border-radius: 50%;
+    border: 1px solid black;
+`;
+
+export const MobileAppSection = styled.div`
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+`;
+
 export const ForAndroid = styled.div`
-    display: inline-block;
     height: 900px;
     width: 400px;
-    margin-left: 100px;
     `;
 
 export const ForAndroidImg = styled.img`
@@ -32,35 +71,21 @@ export const ForAndroidImg = styled.img`
     width: 400px;
 `;
 
-export const ForIOS = styled.div`
-    display: inline-block;
-    height: 900px;
-    width: 400px;
-    margin-left: 50px;
-    `;
-
-export const ForIOSImg = styled.img`
-    height: 900px;
-    width: 400px;
-`;
-
 export const AppDescription = styled.div`
-    display: inline-block;
-    margin-left: 100px;
-    vertical-align: top;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin-top: 400px;
+    font-size: 36px;
+    width: 650px;
+    margin-top: 100px;
     `;
 
 export const NavigationWrapper = styled.div`
-    position: absolute;
+    display: flex;
+    flex-direction: row;
     margin-top: 100px;
     `;
 
 export const GooglePlay = styled.div`
-    display: inline-block;
-    margin: 0 20px;
+
     `;
 
 export const GooglePlayImg = styled.img`
@@ -70,11 +95,24 @@ export const GooglePlayImg = styled.img`
 `;
 
 export const AppStore = styled.div`
-    display: inline-block;
+
     `;
 
 export const AppStoreImg = styled.img`
     width: 323px;
     height: 125px;
     border-radius: 15px;
+    `;
+
+export const IconsWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 135px;
+    `;
+
+export const IconSection = styled.div`
+    width: 200px;
+    height: 250px;
+    font-size: 28px;
     `;

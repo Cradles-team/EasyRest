@@ -9,14 +9,17 @@ export const Restaurants = () => {
             {({dataArr}) => (
                 <RestaurantsWrapper>
                     {dataArr.map(({
-                                      id, name, image, photo, description,
+                                      id, name, image, photo, description, coordinates, logo,
                                   }) => (
                             <Restaurant id={id}
                                         key={id}
                                         name={name}
                                         image={image}
                                         photo={photo}
-                                        description={description}/>
+                                        description={description}
+                                        coordinates={coordinates}
+                                        logo={logo}
+                            />
                         )
                     )}
                 </RestaurantsWrapper>
