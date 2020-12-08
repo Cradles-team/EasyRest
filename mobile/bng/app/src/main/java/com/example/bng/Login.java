@@ -14,6 +14,7 @@ public class Login extends AppCompatActivity {
     Button register;
     TextView poshta;
     TextView password;
+    TextView forgetpass;
 
 
     @Override
@@ -23,6 +24,8 @@ public class Login extends AppCompatActivity {
         register = findViewById(R.id.register);
         poshta = findViewById(R.id.poshta);
         password = findViewById(R.id.password);
+        forgetpass = findViewById(R.id.forgetpass);
+
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,6 +34,17 @@ public class Login extends AppCompatActivity {
 
             }
         });
+
+        forgetpass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Register = new Intent(Login.this, ForgetPasssword.class);
+                startActivity(Register);
+
+            }
+        });
+
+
         Button SingIn = findViewById(R.id.button);
         SingIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,4 +67,5 @@ public class Login extends AppCompatActivity {
                 return true;
             }
         }
+        
 }
