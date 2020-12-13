@@ -1,17 +1,17 @@
 import React, {useContext} from 'react';
 import StoreContext from "../../../StoreContext";
-import {RestaurantImage, RestaurantWrapper} from "./Restaurant.styled";
+import {RestaurantImage, RestaurantName, RestaurantWrapper} from "./Restaurant.styled";
 import {NavLink} from "react-router-dom";
 
 export const Restaurant = (props) => {
-    const { dataArr } = useContext(StoreContext);
+    const {dataArr} = useContext(StoreContext);
     return (
-        <RestaurantWrapper>
-            <NavLink to={"/restaurant/" + props.id}>
-                <RestaurantImage src={props.image}/>
-                {props.name}
-            </NavLink>
-        </RestaurantWrapper>
+        <NavLink to={"/restaurant/" + props.id}>
+            <RestaurantWrapper style={{backgroundImage: `url(${props.image})`}}>
+
+                <RestaurantName>{props.name}</RestaurantName>
+            </RestaurantWrapper>
+        </NavLink>
     )
 };
 

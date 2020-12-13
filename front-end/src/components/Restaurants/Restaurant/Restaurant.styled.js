@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
 export const RestaurantWrapper = styled.div`
-    padding-top: 40px;
-    padding-bottom: 20px;
-    
-    >a {
-    text-decoration: none;
-    color: black;
-    }
-    `;
+  width: 334px;
+  height: 223px;
+  border-radius: 30px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin: 30px;
+`;
 
-export const RestaurantImage = styled.img`
-    width: 350px;
-    height: 250px;
-    border-radius: 15px;
-    `;
+export const RestaurantName = styled.div`
+  height: 50px;
+  background-color: #E5E5E5;
+  border-radius: 50px;
+  width: 100%;
+  text-align: center;
+`;

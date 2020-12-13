@@ -8,8 +8,8 @@ function Footer() {
     return (
         <FooterWrapper>
             <div>
-            <ERIcon>EasyRest</ERIcon>
-            <p>Created by Cradles Team</p>
+                <ERIcon>EasyRest</ERIcon>
+                <p>Created by Cradles Team</p>
             </div>
             <SocialMedia>
                 <p>Ми у соціальних мережах</p>

@@ -1,15 +1,19 @@
 import styled from 'styled-components';
 
 export const RestaurantsWrapper = styled.div`
-    width: 1200px;
-    grid-area: m;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    color: white;
-    margin: 0 auto;
-    column-count: 3;
-    column-span: all;
-    `;
+  width: 1200px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+
+  > a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+  }
+`;
