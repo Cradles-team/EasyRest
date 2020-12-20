@@ -9,6 +9,7 @@ export const RestaurantsWrapper = styled.div`
   align-items: flex-start;
   flex-wrap: wrap;
   margin: auto;
+  min-height: calc(100vh - 238px);
 
   > a {
     text-decoration: none;

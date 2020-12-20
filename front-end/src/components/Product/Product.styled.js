@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import censors from '../../images/censors.jpg'
 
 export const ProductWrapper = styled.div`
+  min-height: calc(100vh - 238px);
 `;
 
 export const ProductArea = styled.div`

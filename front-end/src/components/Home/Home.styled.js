@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import censorsDark from '../../images/censorsDark.png';
 
 export const HomeWrapper = styled.div`
-  grid-area: m;
   display: flex;
   flex-direction: column;
 `;

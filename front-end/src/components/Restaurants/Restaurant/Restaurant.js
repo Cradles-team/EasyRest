@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import StoreContext from "../../../StoreContext";
-import {RestaurantImage, RestaurantName, RestaurantWrapper} from "./Restaurant.styled";
+import {RestaurantName, RestaurantWrapper} from "./Restaurant.styled";
 import {NavLink} from "react-router-dom";
 
 export const Restaurant = (props) => {
@@ -14,5 +14,3 @@ export const Restaurant = (props) => {
         </NavLink>
     )
 };
-
-export default Restaurant;
