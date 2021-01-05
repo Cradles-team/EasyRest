@@ -5,7 +5,7 @@ export const RestaurantsWrapper = styled.div`
   font-size: 20px;
   font-weight: bold;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
   margin: auto;
@@ -17,4 +17,10 @@ export const RestaurantsWrapper = styled.div`
     font-size: 30px;
     font-weight: normal;
   }
+`;
+
+export const RestaurantsPage = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;

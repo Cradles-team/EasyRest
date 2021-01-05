@@ -35,7 +35,7 @@ export const Item = (props) => {
             <CollapseSection>
                 <ScheduleSection>
                     <img src={clock}/>
-                    <OverrideCollapse ghost style={{width: "270px"}}>
+                    <OverrideCollapse ghost style={{width: "300px"}} expandIconPosition="right">
                         <Panel header="Графік роботи">
                             {item_element.schedule}
                         </Panel>
@@ -43,7 +43,7 @@ export const Item = (props) => {
                 </ScheduleSection>
                 <AddressSection>
                     <img src={map}/>
-                    <OverrideCollapse ghost style={{width: "530px"}}>
+                    <OverrideCollapse ghost style={{width: "400px"}} expandIconPosition="right">
                         <Panel header="Адреса">
                             {item_element.address}
                         </Panel>

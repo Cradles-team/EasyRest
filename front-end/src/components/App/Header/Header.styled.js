@@ -13,6 +13,7 @@ export const HeaderWrapper = styled.header`
 `;
 
 export const LinkWrapper = styled.div`
+  margin-top: 20px;
   flex: 4;
   display: flex;
   justify-content: center;

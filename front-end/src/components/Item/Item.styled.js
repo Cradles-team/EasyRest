@@ -57,5 +57,4 @@ export const RouteSection = styled.p`
 
 export const OverrideCollapse = styled(Collapse)`
   margin: 25px 0 0 15px;
-  cursor: pointer;
 `;

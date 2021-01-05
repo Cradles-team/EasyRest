@@ -7,7 +7,6 @@ export const RestaurantWrapper = styled.div`
   background-size: cover;
   display: flex;
   align-items: flex-end;
-  margin: 30px;
 `;
 
 export const RestaurantName = styled.div`

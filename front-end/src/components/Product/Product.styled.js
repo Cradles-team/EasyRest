@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Button} from "antd";
 
 export const ProductWrapper = styled.div`
   min-height: calc(100vh - 238px);
@@ -33,6 +34,9 @@ export const BuyForm = styled.div`
   border-radius: 20px;
   margin-left: 200px;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   > a {
     text-decoration: none;
@@ -44,27 +48,23 @@ export const BuyForm = styled.div`
 `;
 
 export const BuyFormImg = styled.img`
-  margin-left: 25px;
   width: 550px;
   height: 300px;
 `;
 
-export const Button = styled.a`
-  background-color: #ffcc1b;
-  border-radius: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 244px;
+export const BuyButton = styled(Button)`
+  width: 200px;
 `;
 
 export const Price = styled.p`
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  margin-left: 40px;
+  margin-top: 20px;
 `;
 
 export const ComponentsTitle = styled.h1`
-  margin: 200px 0 80px 200px;
+  margin: 100px 0 80px 200px;
+  font-weight: bolder;
 `;
 
 export const Components = styled.div`
@@ -77,7 +77,6 @@ export const OneComponent = styled.div`
   height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
   > h1 {
@@ -87,7 +86,7 @@ export const OneComponent = styled.div`
 
 export const OneComponentDescription = styled.div`
   font-size: 24px;
-  width: 200px;
+  width: 250px;
   text-align: center;
 `;
 

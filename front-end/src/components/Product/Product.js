@@ -1,7 +1,7 @@
 import React from "react";
 import kit from "../../images/kit.png"
 import {
-    Button,
+    BuyButton,
     BuyForm, BuyFormImg, Components, ComponentsTitle, ComponentsWrapper, OneComponent, OneComponentDescription, Price,
     ProductArea,
     ProductDescription, ProductHeroSection,
@@ -30,7 +30,7 @@ function Product() {
                 </ProductArea>
                 <BuyForm>
                     <BuyFormImg src={kit}/>
-                    <Button type="primary" href="https://next.privat24.ua/">BUY</Button>
+                    <BuyButton type="primary" size="large">BUY</BuyButton>
                     <Price>Price: 170$(5 table) + 10$/table</Price>
                 </BuyForm>
             </ProductHeroSection>
