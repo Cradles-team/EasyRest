@@ -28,7 +28,7 @@ const data = {
         coordinates: "lat: 49.841145, lng: 24.031094",
         schedule: "Пн 12:00 - 20:00 Вт 12:00 - 20:00 Ср 12:00 - 20:00 Чт 12:00 - 20:00 Пт 12:00 - 20:00 Сб 12:00 - 20:00 Нд 12:00 - 20:00 ",
         address: "вулиця Козельницька, 1А, Львів, Львівська область, 79000 вулиця Федьковича, 38, Львів, Львівська область, 79000",
-        logo: "https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/74428353_2476768682441590_3994229897772924928_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=97qDD1Kg2fAAX9sQo5S&_nc_ht=scontent.fiev12-1.fna&oh=30373f0aebd6289f48bceb09e424cd76&oe=5FE952A3"
+        logo: "https://s3.eu-central-1.amazonaws.com/listmusor/production/169255/logo/big/5ae168ffcd3da.jpg"
     },
     3: {
         id: 3,
@@ -38,7 +38,7 @@ const data = {
         coordinates: "lat: 49.841262, lng: 24.026231",
         schedule: "Пн 12:00 - 20:00 Вт 12:00 - 20:00 Ср 12:00 - 20:00 Чт 12:00 - 20:00 Пт 12:00 - 20:00 Сб 12:00 - 20:00 Нд 12:00 - 20:00 ",
         address: "вулиця Козельницька, 1А, Львів, Львівська область, 79000 вулиця Федьковича, 38, Львів, Львівська область, 79000",
-        logo: "https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/43878244_1870820849700942_7644275362850930688_o.png?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=JFnMSbfaHu8AX_xum_I&_nc_ht=scontent.fiev12-1.fna&oh=725234af45303e04645a1e263f9ae41d&oe=5FEAA82E"
+        logo: "https://ufa.hh.ru/employer-logo/2059107.png"
     },
     4: {
         id: 4,
