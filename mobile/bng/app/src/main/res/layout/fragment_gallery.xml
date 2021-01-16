@@ -13,22 +13,11 @@
         android:background="#FFFFFF">
 
         <View
-            android:id="@+id/view2"
-            android:layout_width="415dp"
-            android:layout_height="76dp"
-            android:background="@drawable/confus"
-            app:layout_constraintBottom_toTopOf="@+id/view7"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view" />
-
-        <View
             android:id="@+id/view9"
             android:layout_width="413dp"
             android:layout_height="82dp"
-            android:background="@drawable/confus"
-            app:layout_constraintBottom_toTopOf="@+id/view"
+            android:background="@drawable/rounded_button"
+            app:layout_constraintBottom_toTopOf="@+id/textView19"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -50,39 +39,15 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="415dp"
-            android:layout_height="160dp"
-            android:background="@drawable/confus"
+            android:layout_width="139dp"
+            android:layout_height="129dp"
+            android:background="@drawable/rounded_button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="0.117"
             app:srcCompat="@mipmap/ic_launcher" />
-
-        <View
-            android:id="@+id/view"
-            android:layout_width="411dp"
-            android:layout_height="216dp"
-            android:layout_marginTop="100dp"
-            android:background="@drawable/confus"
-            app:layout_constraintBottom_toTopOf="@+id/view2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-        <View
-            android:id="@+id/view7"
-            android:layout_width="415dp"
-            android:layout_height="76dp"
-            android:background="@drawable/confus"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/text_gallery"
-            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/textView16"
@@ -90,100 +55,78 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="І'мя"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="30sp"
-            android:textStyle="normal|italic"
+            android:textStyle="normal|bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Улюблені Ресторани"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/view"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.09"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/view"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="272dp"
-            android:layout_height="142dp"
-            app:layout_constraintBottom_toBottomOf="@+id/view"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.179"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView17"
-            app:layout_constraintVertical_bias="0.565"
-            app:srcCompat="@drawable/kebab" />
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Номер Телефону"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/view2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.036"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/view2"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <TextView
             android:id="@+id/textView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Пошта"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/view7"
+            android:layout_width="373dp"
+            android:layout_height="46dp"
+            android:text=" Вийти з аккаунту"
+            android:background="@drawable/thin_black_button"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintHorizontal_bias="0.118"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view2"
-            app:layout_constraintVertical_bias="0.254" />
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="+095678902137"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/view2"
-            app:layout_constraintEnd_toEndOf="@+id/view2"
-            app:layout_constraintHorizontal_bias="0.027"
+            android:layout_width="373dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="15dp"
+            android:text=" Налаштування"
+            android:background="@drawable/thin_black_button"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView19"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView18"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
         <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="easyrest@gmail.com"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/view2"
+            android:id="@+id/textView17"
+            android:layout_width="373dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/thin_black_button"
+            android:text=" Улюблені Ресторани"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/textView18"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.032"
+            app:layout_constraintHorizontal_bias="0.173"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView19"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/view9" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="373dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/thin_black_button"
+            android:text=" Запросити друзів"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
