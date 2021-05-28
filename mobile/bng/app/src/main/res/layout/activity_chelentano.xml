@@ -38,7 +38,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.156" />
+            app:layout_constraintVertical_bias="0.238" />
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -49,30 +49,14 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/textView11"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.655"
+            app:layout_constraintVertical_bias="0.908"
             app:srcCompat="@drawable/star" />
-
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="75dp"
-            android:layout_height="69dp"
-            android:layout_marginTop="135dp"
-            android:layout_marginBottom="5dp"
-            android:background="#FFFFFF"
-            android:drawableBottom="@drawable/heart"
-            android:text="Button"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.974"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.705" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="401dp"
             android:layout_height="248dp"
-            android:background="#FDFCFD"
+            android:background="@color/design_default_color_background"
             android:text="“Піца Челентано” – найбільша українська мережа ресторанів-піцерій. Заклади працюють у форматі Quick і Casual, тобто представляють собою щось середнє між рестораном і фаст-фудом. Від ресторанів вони перейняли досить високу якість приготування страв і хороше обслуговування, а вплив fast food полягає у більш демократичних цінах, пришвидшеному готуванні та обстановці кафе. Інтер’єр ресторану-піцерії “Челентано” оформлений у сучасному стилі."
             android:textColor="#000000"
             android:textSize="18sp"
@@ -85,52 +69,26 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="98dp"
+            android:layout_width="294dp"
             android:layout_height="39dp"
-            android:text="МЕНЮ"
+            android:text="МІСЦЕ ПОЛОЖЕННЯ"
             android:textColor="#000000"
             android:textSize="30sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10"
-            app:layout_constraintVertical_bias="0.07" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="163dp"
-            android:layout_height="145dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="44dp"
-            android:src="@drawable/chelentano_menu_first"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.068"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="156dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="44dp"
-            android:src="@drawable/chelentano_menu_second"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.483"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.102" />
 
         <Button
             android:id="@+id/y"
-            android:layout_width="41dp"
-            android:layout_height="46dp"
-            android:drawableBottom="@drawable/back"
+            android:layout_width="39dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="15dp"
+            android:background="#00FFFFFF"
+            android:drawableBottom="@drawable/returne"
             android:text="Y"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -139,72 +97,60 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.004" />
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="307dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="208dp"
-            android:text="МІСЦЕ ПОЛОЖЕННЯ"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3"
-            app:layout_constraintVertical_bias="1.0" />
-
         <Button
-            android:id="@+id/button21"
+            android:id="@+id/button4"
             android:layout_width="154dp"
             android:layout_height="37dp"
-            android:layout_marginTop="18dp"
+            android:background="#FFC244"
             android:text="ПОКРОКОВО"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.428"
             app:layout_constraintStart_toEndOf="@+id/textView14"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.082" />
 
         <Button
-            android:id="@+id/button22"
+            android:id="@+id/button5"
             android:layout_width="154dp"
             android:layout_height="37dp"
-            android:layout_marginTop="35dp"
             android:layout_marginEnd="-25dp"
             android:layout_marginRight="-25dp"
+            android:background="#FFC244"
             android:text="ПОКРОКОВО"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.893"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button21"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/button4"
+            app:layout_constraintVertical_bias="0.077" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="10dp"
             android:text="БРОНЮВАННЯ"
             android:textColor="#070707"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button22"
-            app:layout_constraintVertical_bias="0.567" />
+            app:layout_constraintTop_toBottomOf="@+id/button5"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
+            android:background="#FFC244"
             android:text="ВУЛ. ШУХЕВИЧА 3"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.219"
+            app:layout_constraintHorizontal_bias="0.246"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
             app:layout_constraintVertical_bias="0.0" />
@@ -213,13 +159,15 @@
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#FFC244"
             android:text="ПЛОЩА РИНОК 21"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintHorizontal_bias="0.758"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.201" />
 
         <TextView
             android:id="@+id/textView14"
@@ -233,7 +181,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.133"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
             app:layout_constraintVertical_bias="0.096" />
 
         <TextView
@@ -246,10 +194,55 @@
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.132"
+            app:layout_constraintHorizontal_bias="0.141"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
-            app:layout_constraintVertical_bias="0.255" />
+            app:layout_constraintVertical_bias="0.127" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавити до "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:background="#FFC244"
+            android:text="Улюбленого"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <Button
+            android:id="@+id/chelentmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#FFC244"
+            android:text="МЕНЮ"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button8"
+            app:layout_constraintVertical_bias="0.526" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,7 +34,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/textView22"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.642"
+            app:layout_constraintVertical_bias="0.886"
             app:srcCompat="@drawable/star" />
 
         <TextView
@@ -50,7 +50,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.16" />
+            app:layout_constraintVertical_bias="0.25" />
 
         <TextView
             android:id="@+id/textView10"
@@ -68,9 +68,9 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="98dp"
-            android:layout_height="39dp"
-            android:text="МЕНЮ"
+            android:layout_width="306dp"
+            android:layout_height="38dp"
+            android:text="МІСЦЕ ПОЛОЖЕННЯ"
             android:textColor="#000000"
             android:textSize="30sp"
             android:textStyle="italic"
@@ -81,39 +81,13 @@
             app:layout_constraintTop_toBottomOf="@+id/textView10"
             app:layout_constraintVertical_bias="0.07" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="163dp"
-            android:layout_height="145dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="44dp"
-            android:src="@drawable/lvivcroissants_menu_first"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.068"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="156dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="44dp"
-            android:src="@drawable/lvivcroissants_menu_second"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.483"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:layout_constraintVertical_bias="0.0" />
-
         <Button
             android:id="@+id/y"
-            android:layout_width="41dp"
-            android:layout_height="46dp"
-            android:drawableBottom="@drawable/back"
+            android:layout_width="39dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="15dp"
+            android:background="#00FFFFFF"
+            android:drawableBottom="@drawable/returne"
             android:text="Y"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -122,64 +96,36 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.004" />
 
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="75dp"
-            android:layout_height="69dp"
-            android:layout_marginTop="135dp"
-            android:layout_marginBottom="5dp"
-            android:background="#FFFFFF"
-            android:drawableBottom="@drawable/heart"
-            android:text="Button"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.972"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.583" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="307dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="208dp"
-            android:text="МІСЦЕ ПОЛОЖЕННЯ"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3"
-            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/button21"
             android:layout_width="154dp"
             android:layout_height="37dp"
-            android:layout_marginTop="25dp"
+            android:background="#FFC244"
             android:text="ПОКРОКОВО"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintHorizontal_bias="0.473"
             app:layout_constraintStart_toEndOf="@+id/textView14"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
-            app:layout_constraintVertical_bias="0.229" />
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.066" />
 
         <Button
             android:id="@+id/button22"
             android:layout_width="154dp"
             android:layout_height="37dp"
-            android:layout_marginTop="45dp"
             android:layout_marginEnd="-25dp"
             android:layout_marginRight="-25dp"
+            android:background="#FFC244"
             android:text="ПОКРОКОВО"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintHorizontal_bias="0.893"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button21"
-            app:layout_constraintVertical_bias="0.107" />
+            app:layout_constraintVertical_bias="0.116" />
 
         <TextView
             android:id="@+id/textView13"
@@ -193,14 +139,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button22"
-            app:layout_constraintVertical_bias="0.567" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="151dp"
-            android:layout_height="67dp"
+            android:layout_width="129dp"
+            android:layout_height="47dp"
             android:layout_marginTop="25dp"
+            android:background="#FFC244"
             android:text="ВУЛ. СТЕПАНА БАНДЕРИ 21"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.219"
@@ -210,19 +158,21 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="140dp"
-            android:layout_height="65dp"
+            android:layout_width="129dp"
+            android:layout_height="47dp"
+            android:background="#FFC244"
             android:text="ВУЛ. ГОРОДОЦЬКА 87"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintHorizontal_bias="0.769"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.211" />
 
         <TextView
             android:id="@+id/textView14"
-            android:layout_width="176dp"
+            android:layout_width="149dp"
             android:layout_height="49dp"
             android:text="ВУЛ. СТЕПАНА БАНДЕРИ 21"
             android:textColor="#000000"
@@ -230,25 +180,72 @@
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintHorizontal_bias="0.122"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
-            app:layout_constraintVertical_bias="0.096" />
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.028" />
 
         <TextView
             android:id="@+id/textView15"
-            android:layout_width="208dp"
-            android:layout_height="37dp"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
             android:text="ВУЛ. ГОРОДОЦЬКА 87"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.034"
+            app:layout_constraintHorizontal_bias="0.035"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
-            app:layout_constraintVertical_bias="0.197" />
+            app:layout_constraintVertical_bias="0.112" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="132dp"
+            android:layout_marginRight="132dp"
+            android:text="Добавити до "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.088" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:background="#FFC244"
+            android:text="Улюбленого"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <Button
+            android:id="@+id/lvivcrosmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#FFC244"
+            android:text="МЕНЮ"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button8"
+            app:layout_constraintVertical_bias="0.526" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

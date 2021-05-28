@@ -4,18 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#ffc244"
     tools:context=".Register">
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="317dp"
+        android:layout_height="597dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="197dp"
-        android:layout_height="37dp"
-        android:text="Створити Акаунт"
-        android:textSize="24sp"
+        android:layout_width="276dp"
+        android:layout_height="76dp"
+        android:text="Зареєструватися в EASYREAST"
+        android:textColor="#000000"
+        android:textSize="30sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toTopOf="@+id/name"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,6 +39,7 @@
         android:ems="10"
         android:hint="І'мя"
         android:inputType="textPersonName"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/poshta"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +53,7 @@
         android:ems="10"
         android:hint="Елк. Пошта"
         android:inputType="textEmailAddress"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,6 +68,7 @@
         android:ems="10"
         android:hint="Пароль"
         android:inputType="textPassword"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/confirmPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,32 +82,21 @@
         android:ems="10"
         android:hint="Підтвердити пароль"
         android:inputType="textPassword"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Privacy Police"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/confirmPassword"
-        app:layout_constraintVertical_bias="0.375" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="151dp"
         android:layout_height="34dp"
-        android:background="#F8F5F5"
+        android:layout_marginBottom="50dp"
+        android:background="#ffc244"
         android:text="Зареєструватися"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,14 +105,30 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="191dp"
-        android:layout_height="25dp"
-        android:background="#FFFFFF"
-        android:text="Увійти на Акаунт"
+        android:layout_width="49dp"
+        android:layout_height="16dp"
+        android:background="#00FFFFFF"
+        android:text="Увійти"
+        android:textColor="#FFC244"
+        android:textSize="12sp"
         android:textStyle="normal|bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.210" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вже зареєстровані?"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.166" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
