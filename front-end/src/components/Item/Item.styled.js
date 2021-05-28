@@ -1,11 +1,10 @@
-import styled from 'styled-components';
-import {Collapse} from "antd";
+import styled from "styled-components";
+import { Collapse } from "antd";
 
 export const ItemWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 `;
 
 export const ItemTitle = styled.div`
@@ -19,15 +18,25 @@ export const ItemTitle = styled.div`
   font-size: 36px;
   margin: 0 0 36px 22px;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    width: 175px;
+    height: 80px;
+    font-size: 20px;
+  }
 `;
 
 export const ItemHero = styled.div`
-  width: 1920px;
-  height: 675px;
+  width: 100%;
+  height: 491px;
   background-size: cover;
   background-repeat: round;
   display: flex;
   align-items: flex-end;
+
+  @media (max-width: 768px) {
+    height: 380px;
+  }
 `;
 
 export const CollapseSection = styled.div`
@@ -39,20 +48,21 @@ export const CollapseSection = styled.div`
   margin-top: 10px;
 `;
 
-export const ScheduleSection = styled.div`
+export const CollapseItem = styled.div`
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
-`;
 
-export const AddressSection = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  @media (max-width: 768px) {
+    width: 300px;
+  }
 `;
 
 export const RouteSection = styled.p`
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
   font-size: 36px;
+  line-height: 50px;
+  margin-top: 37px;
 `;
 
 export const OverrideCollapse = styled(Collapse)`
