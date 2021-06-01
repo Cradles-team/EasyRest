@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="І'мя"
+            android:text="І'мя користувача"
             android:textColor="#000000"
             android:textSize="30sp"
             android:textStyle="normal|bold"
